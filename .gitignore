@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development data and settings
+*.sqlite3
+*.db
+.env
+.venv/
+venv/
+
+# This copied folder contains a separate project, virtual environment, and training media.
+/static/css/Jagadeesh (1)/

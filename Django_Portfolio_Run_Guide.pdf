@@ -1,0 +1,474 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 1936 >>
+stream
+0.95 0.94 0.99 rg
+0 0 595 842 re f
+0.38 0.29 0.79 rg
+0 820 595 22 re f
+BT
+/F2 21 Tf
+0.11 0.10 0.20 rg
+48 790 Td
+(Before you start) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 748 Td
+(This guide explains how to run the portfolio website on Windows from the project) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 733 Td
+(folder.) Tj
+ET
+BT
+/F3 9 Tf
+0.38 0.29 0.79 rg
+54 713 Td
+(Project folder: C:\\Users\\chand\\OneDrive\\Desktop\\Portifolio) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 694 Td
+(You need Python installed. Open the project folder in VS Code, then choose Terminal) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 679 Td
+(> New Terminal. The commands below are for PowerShell.) Tj
+ET
+BT
+/F2 13 Tf
+0.38 0.29 0.79 rg
+48 654 Td
+(1. Open the project folder) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 632 Td
+(In VS Code, select File > Open Folder and choose the Portifolio folder. Confirm that) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 617 Td
+(manage.py and requirements.txt are visible in the Explorer.) Tj
+ET
+BT
+/F2 13 Tf
+0.38 0.29 0.79 rg
+48 592 Td
+(2. Create a virtual environment \(recommended\)) Tj
+ET
+0.90 0.88 0.96 rg
+42 564 510 24 re f
+BT
+/F3 9 Tf
+0.18 0.16 0.25 rg
+54 570 Td
+(python -m venv .venv) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 545 Td
+(This creates an isolated Python environment in the project. You only need to create) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 530 Td
+(it once.) Tj
+ET
+BT
+/F2 13 Tf
+0.38 0.29 0.79 rg
+48 505 Td
+(3. Activate the environment) Tj
+ET
+0.90 0.88 0.96 rg
+42 477 510 24 re f
+BT
+/F3 9 Tf
+0.18 0.16 0.25 rg
+54 483 Td
+(.\\.venv\\Scripts\\Activate.ps1) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 458 Td
+(When it is active, the terminal prompt usually starts with \(.venv\). If PowerShell) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 443 Td
+(blocks activation, use the Command Prompt alternative below.) Tj
+ET
+0.90 0.88 0.96 rg
+42 417 510 24 re f
+BT
+/F3 9 Tf
+0.18 0.16 0.25 rg
+54 423 Td
+(.venv\\Scripts\\activate.bat) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 1794 >>
+stream
+0.95 0.94 0.99 rg
+0 0 595 842 re f
+0.38 0.29 0.79 rg
+0 820 595 22 re f
+BT
+/F2 21 Tf
+0.11 0.10 0.20 rg
+48 790 Td
+(Install and prepare Django) Tj
+ET
+BT
+/F2 13 Tf
+0.38 0.29 0.79 rg
+48 743 Td
+(4. Install the project requirements) Tj
+ET
+0.90 0.88 0.96 rg
+42 715 510 24 re f
+BT
+/F3 9 Tf
+0.18 0.16 0.25 rg
+54 721 Td
+(python -m pip install --upgrade pip) Tj
+ET
+0.90 0.88 0.96 rg
+42 690 510 24 re f
+BT
+/F3 9 Tf
+0.18 0.16 0.25 rg
+54 696 Td
+(python -m pip install -r requirements.txt) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 671 Td
+(The requirements file installs Django. Internet access is needed the first time so) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 656 Td
+(pip can download it.) Tj
+ET
+BT
+/F2 13 Tf
+0.38 0.29 0.79 rg
+48 631 Td
+(5. Prepare the SQLite database) Tj
+ET
+0.90 0.88 0.96 rg
+42 603 510 24 re f
+BT
+/F3 9 Tf
+0.18 0.16 0.25 rg
+54 609 Td
+(python manage.py migrate) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 584 Td
+(This creates or updates the local SQLite database used by the site. Running) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 569 Td
+(migrations makes sure the database schema is ready.) Tj
+ET
+BT
+/F2 13 Tf
+0.38 0.29 0.79 rg
+48 544 Td
+(6. Check the Django project) Tj
+ET
+0.90 0.88 0.96 rg
+42 516 510 24 re f
+BT
+/F3 9 Tf
+0.18 0.16 0.25 rg
+54 522 Td
+(python manage.py check) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 497 Td
+(A successful check reports: System check identified no issues.) Tj
+ET
+BT
+/F2 13 Tf
+0.38 0.29 0.79 rg
+48 472 Td
+(7. Start the local website) Tj
+ET
+0.90 0.88 0.96 rg
+42 444 510 24 re f
+BT
+/F3 9 Tf
+0.18 0.16 0.25 rg
+54 450 Td
+(python manage.py runserver) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 425 Td
+(Keep this terminal open while using the site. Django will print a local address,) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 410 Td
+(normally http://127.0.0.1:8000/.) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 2946 >>
+stream
+0.95 0.94 0.99 rg
+0 0 595 842 re f
+0.38 0.29 0.79 rg
+0 820 595 22 re f
+BT
+/F2 21 Tf
+0.11 0.10 0.20 rg
+48 790 Td
+(Use the website) Tj
+ET
+BT
+/F2 13 Tf
+0.38 0.29 0.79 rg
+48 743 Td
+(8. Open the portfolio in your browser) Tj
+ET
+0.90 0.88 0.96 rg
+42 715 510 24 re f
+BT
+/F3 9 Tf
+0.18 0.16 0.25 rg
+54 721 Td
+(http://127.0.0.1:8000/) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 696 Td
+(The site runs on your computer; this address is local to your machine. It is not) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 681 Td
+(automatically published on the internet.) Tj
+ET
+BT
+/F2 13 Tf
+0.38 0.29 0.79 rg
+48 656 Td
+(Useful portfolio features) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 634 Td
+(?  Use the navigation links to move to About, Skills, Projects, Journey, Resume, and) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 619 Td
+(?  Certificates.) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 599 Td
+(?  Click Run in the code illustration to animate the sample and show its output.) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 579 Td
+(?  Skill chips and project cards can be clicked for interactive details or related) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 564 Td
+(?  links.) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 544 Td
+(?  Open or download the resume and certificates from their sections.) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 524 Td
+(?  The restaurant demo, if included in your current project version, is at) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 509 Td
+(?  http://127.0.0.1:8000/restaurant/.) Tj
+ET
+BT
+/F2 13 Tf
+0.38 0.29 0.79 rg
+48 484 Td
+(9. Stop the server) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 462 Td
+(Return to the terminal running Django and press Ctrl+C. To start again later, reopen) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 447 Td
+(the project, activate .venv, and run the server command.) Tj
+ET
+BT
+/F2 13 Tf
+0.38 0.29 0.79 rg
+48 422 Td
+(Troubleshooting) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 400 Td
+(?  ?python is not recognized?: install Python and enable ?Add Python to PATH?, then) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 385 Td
+(?  reopen VS Code.) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 365 Td
+(?  ?No module named django?: activate .venv and run python -m pip install -r) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 350 Td
+(?  requirements.txt.) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 330 Td
+(?  Port 8000 is busy: run python manage.py runserver 8001 and open) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 315 Td
+(?  http://127.0.0.1:8001/.) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 295 Td
+(?  Changes are not visible: save your files, then hard-refresh the browser with) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 280 Td
+(?  Ctrl+F5.) Tj
+ET
+BT
+/F1 10 Tf
+0.35 0.37 0.45 rg
+48 260 Td
+(?  Do not close the terminal while using the local site; closing it stops the server.) Tj
+ET
+BT
+/F3 9 Tf
+0.38 0.29 0.79 rg
+54 240 Td
+(Quick start after setup: .\\.venv\\Scripts\\Activate.ps1  >  python) Tj
+ET
+BT
+/F3 9 Tf
+0.38 0.29 0.79 rg
+54 226 Td
+(manage.py runserver) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000134 00000 n 
+0000000204 00000 n 
+0000000279 00000 n 
+0000000347 00000 n 
+0000002335 00000 n 
+0000002481 00000 n 
+0000004327 00000 n 
+0000004473 00000 n 
+0000007472 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+7620
+%%EOF
