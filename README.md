@@ -12,14 +12,10 @@ python manage.py runserver
 
 Open http://127.0.0.1:8000.
 
-## Deploy on Render
+## Deploy a public preview
 
-GitHub stores this project's source code. To run the Django app as a public website, deploy it as a Render web service connected to this repository.
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/jagadeeshbabu-code/portfolio)
 
-1. Create a PostgreSQL database in Render and copy its internal connection URL.
-2. Create a Python web service connected to `jagadeeshbabu-code/portfolio`.
-3. Set the build command to `pip install -r requirements.txt && python manage.py collectstatic --no-input && python manage.py migrate`.
-4. Set the start command to `gunicorn portfolio.wsgi:application`.
-5. Add `DATABASE_URL` with the database URL and `SECRET_KEY` with a generated secret. Set `DEBUG` to `False`.
+Sign in to Render and use the button to create the web service from `render.yaml`. Render will provide a public `onrender.com` URL to share with reviewers.
 
-Render supplies `RENDER_EXTERNAL_HOSTNAME`; the Django settings use it for `ALLOWED_HOSTS`. See the [Render Django deployment guide](https://render.com/docs/deploy-django) for current service setup details.
+This free preview uses SQLite, so account, order, reservation, and feedback data can reset when the service restarts or redeploys. Free Render web services also sleep when idle. For persistent app data, connect a PostgreSQL database using the [Render Django deployment guide](https://render.com/docs/deploy-django); free Render Postgres databases expire after 30 days.
